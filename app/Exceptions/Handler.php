@@ -2,7 +2,7 @@
 
 namespace App\Exceptions;
 
-use App\Model\Traits\ApiResponser;
+use App\Traits\ApiResponser;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 

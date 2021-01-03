@@ -33,3 +33,7 @@ $router->delete('/users/{id}', 'UserController@delete'); //delete user
 
 $router->get('login', 'UserController@showLogIn');
 $router->post('result', 'UserController@result');
+
+//user job routes
+$router->get('/usersjob', 'UserJobController@index');
+$router->get('/usersjob/{id}', 'UserJobController@show'); // get user by id
